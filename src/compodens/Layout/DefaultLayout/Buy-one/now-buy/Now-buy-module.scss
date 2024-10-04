@@ -1,0 +1,57 @@
+.sidebar-container {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+
+  right: 300px;
+}
+.voucher-section,
+.share-item-container,
+.select-all-container {
+  display: flex;
+  align-items: center;
+}
+.product-count-list {
+  display: flex;
+}
+.checkout-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.buy-now-button {
+  height: 40px !important;
+  width: 200px;
+}
+.item-count {
+  margin-left: 10px;
+}
+.voucher-section {
+  display: flex;
+}
+.share-item-container {
+  margin-left: 690px;
+}
+.voucher-text {
+  font-size: 1.7rem;
+  margin-left: -63px;
+  margin-right: 36px;
+}
+.share-item-icon {
+}
+.voucher-section {
+  margin-top: 40px;
+}
+.total-price {
+  font-size: 1.7rem;
+  color: var(--primary);
+  font-weight: 600;
+}
+.choose-input-text {
+  font-size: 15px;
+  cursor: pointer;
+
+  color: var(--primary);
+}

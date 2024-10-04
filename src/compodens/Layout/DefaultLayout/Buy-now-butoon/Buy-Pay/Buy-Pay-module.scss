@@ -1,0 +1,345 @@
+.NowContainer {
+  display: flex;
+  flex-direction: column;
+}
+.NowAddressDetailt {
+}
+.NowHeader {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  color: var(--primary);
+
+  background-color: black;
+}
+.yyy {
+  display: flex;
+  align-items: center;
+}
+.NowHeaderTitle {
+  font-size: 1.8rem;
+  color: var(--primary);
+}
+.NowAddressContainer {
+  display: flex;
+  flex-direction: column;
+}
+.NowAddressTitle {
+  margin-left: 20px;
+}
+.NowAddressTitle11 {
+  display: flex;
+  margin-top: -10px;
+  margin-left: 20px;
+}
+.NowProductItemDetails {
+  display: flex;
+
+  align-items: center;
+}
+.NowProductContainer1 {
+  margin-left: 20px;
+}
+.NowProductItemDetails {
+}
+.NowProductPriceContainer {
+  float: right;
+}
+.NowProductPriceTitle {
+  margin-right: 66px;
+}
+.NowMessageAndShipping {
+  display: flex;
+  flex-direction: column !important;
+}
+.NowMessageTitle {
+  font-size: 1.4rem;
+  margin-right: 10px;
+}
+.NowMessageTitle-input {
+  width: 250px;
+  height: 40px;
+  padding: 0 !important;
+  margin: 0 !important;
+  background-color: #0e0f0f;
+  border: none;
+  font-size: 1.4rem;
+  &:focus {
+    outline: none; // Loại bỏ đường viền mặc định khi focus
+    border-color: transparent; // Đặt màu border là trong suốt
+  }
+}
+.NowProductQuantityTitle {
+  margin-right: 83px;
+  font-size: 1.5rem;
+}
+.ShippingMethodContainer {
+}
+.NowShippingMethodTitle {
+  margin-right: 95px;
+}
+.NowShippingMethod {
+  margin-right: 161px;
+  font-size: 1.5rem;
+}
+
+.NowShippingCost {
+  margin-right: 20px;
+  font-size: 1.5rem;
+}
+.NowShippingGuaranteeContainer {
+  margin-left: 621px;
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+.NowShippingFastOptionTitle {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+.NowShippingFastOption {
+  margin-top: 30px;
+}
+.NowShippingFastOptionGuarantee {
+  font-size: 1.3rem;
+  color: #5cdbcb;
+  margin-left: 10px;
+}
+.NowShippingInspection {
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+.NowShippin1g {
+  margin-left: 20px;
+}
+.NowShippingFastContainer {
+  margin-left: 396px;
+  margin-top: -20px;
+}
+.NowShippingGuaranteeDate,
+.NowShippingGuaranteeVoucher {
+  margin-bottom: 0 !important;
+}
+.NowShippingGuaranteeVoucher {
+  margin-top: -0px;
+}
+.NowShippin11g {
+  display: flex;
+  justify-content: space-between;
+}
+.NowShippin11g {
+  display: flex;
+}
+.NowVoucherContainer {
+  float: right;
+  display: flex;
+  align-items: center;
+}
+.NowMessageAndShipping {
+  margin-top: 10px;
+  background-color: black;
+}
+.NowVoucherTitle {
+  margin-right: 50px;
+}
+.NowVoucherSelect {
+  margin-right: 20px;
+  color: rgba(0, 0, 255, 0.7);
+  font-weight: 600;
+}
+.NowProductTypeTitle,
+.NowProductType {
+  font-size: 1.4rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+.NowProductDescription,
+.NowProductReturnPolicy {
+  margin: 0 !important;
+}
+.NowProductReturnPolicy {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+.NowProductTypeContainer {
+  margin-left: 73px;
+  margin-top: -17px;
+}
+.NowProductPrice {
+  margin-left: 70px;
+}
+.NowProductTotal {
+  margin-left: 179px;
+}
+.NowProductQuantity {
+  margin-left: 75px;
+}
+.NowProductTotal {
+}
+.NowProductPriceContainer {
+  margin-top: -17px;
+}
+.NowProductDescriptionContainer {
+  margin-left: 10px;
+}
+.NowProductItemDetaiimg {
+  width: 60px;
+  height: 60px;
+}
+.NowMall,
+.NowFavorite {
+  font-size: 1.3rem;
+  color: white;
+  background-color: var(--primary);
+  margin-right: 10px;
+}
+.NowChatText {
+  font-size: 1.4rem;
+  font-size: 500;
+}
+.NowProductQuantity {
+}
+.NowProductTotal {
+  margin-left: 170px;
+}
+
+.NowProductQuantityTitle {
+  margin-right: 119px;
+}
+.NowProductQuantity .NowProductContainer {
+  margin-top: 7px;
+  background-color: black;
+}
+.NowProductPriceTitle,
+.NowProductQuantityTitle,
+.NowProductTotalTitle {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.4);
+}
+.NowProductTitle {
+  font-size: 1.6rem;
+  color: antiquewhite;
+}
+.NowProductDetails,
+.NowProductInfo,
+.NowProductTitle {
+}
+.NowAddressHeader,
+.NowAddressTitle11 {
+}
+.NowAddressHeader {
+  display: flex;
+  flex-direction: column;
+}
+.NowName,
+.NowPhone {
+  font-size: 1.6rem;
+  margin-left: 10px;
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.8);
+}
+.NowAddressDetailt {
+  margin-left: 10px;
+}
+.NowHeaderTitle {
+  font-size: 2.3rem;
+  font-weight: 550;
+}
+.NowStreet,
+.NowWard,
+.NowDistrict,
+.NowCity {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: beige;
+}
+.NowAddressTitle {
+  font-size: 2rem;
+  color: var(--primary);
+}
+.NowDefaultText {
+  margin-left: 20px;
+}
+.NowAddressTitle {
+}
+.NowAddressDetails {
+}
+.NowName {
+}
+.NowPhone {
+}
+.NowStreet {
+}
+.NowWard {
+}
+.NowDistrict {
+}
+.NowCity {
+}
+.NowDefault {
+}
+.NowDefaultText {
+  background-color: transparent;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  font-size: 1.4rem;
+}
+.NowChange {
+  font-size: 1.5rem;
+  color: brown;
+  margin-left: 15px;
+}
+.NowChangeText {
+  margin-left: 35px;
+}
+.NowProductContainer {
+}
+.NowProductHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.NowProductTitleContainer {
+}
+.NowProductTitle {
+}
+.NowProductInfo {
+  display: flex;
+}
+.NowProductPriceTitle {
+}
+.NowProductQuantityTitle {
+}
+.qqq {
+  display: flex;
+  flex-direction: column;
+}
+.NowAddressContainer {
+  background-color: black;
+}
+.NowTotalContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.NowTotalDetails {
+  margin-right: 99px;
+}
+.NowProductTotalTitle {
+  margin-right: 24px !important;
+}
+.NowTotalTitle,
+.NowTotalQuantity,
+.NowTotalProductTitle {
+  font-size: 1.5rem;
+  color: rgba(0, 0, 0, 0.4);
+  margin-right: 5px;
+}
+.NowTotalQuantity {
+}
+.NowTotalProductTitle {
+}
+.NowTotalAmount {
+  font-size: 1.7rem;
+  color: var(--primary);
+  margin-right: 20px;
+}

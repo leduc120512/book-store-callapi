@@ -1,0 +1,42 @@
+/* styles.css */
+.app.dark {
+  background-color: #222;
+  color: #fff;
+}
+
+.app.light {
+  background-color: #fff;
+  color: #222;
+}
+
+.panel {
+  padding: 20px;
+  margin: 10px;
+}
+
+.panel-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.panel-light {
+  background-color: #eee;
+  color: #222;
+}
+
+.button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-dark {
+  background-color: #555;
+  color: #fff;
+}
+
+.button-light {
+  background-color: #ccc;
+  color: #222;
+}

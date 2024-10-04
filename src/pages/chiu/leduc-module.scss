@@ -1,0 +1,37 @@
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Main-1 {
+  display: flex;
+}
+.Main-k {
+  display: flex;
+  flex-direction: column;
+
+  &p {
+    min-width: 15px !important;
+    min-height: 5px;
+
+    background-color: aliceblue;
+  }
+}
+
+.Main-2 {
+  background-color: yellow !important;
+  border: 1px solid black;
+
+  padding: 5px 5px 5px 5px !important;
+  margin: 0 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.Main-3 {
+  border: 1px solid black;
+  padding-right: 20px !important;
+  margin: 0 !important;
+}

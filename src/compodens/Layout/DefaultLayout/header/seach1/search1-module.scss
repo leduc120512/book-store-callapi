@@ -1,0 +1,126 @@
+.searchBar {
+  height: 50px;
+  border-radius: 92px;
+  background: rgba(22, 24, 35, 0.06);
+  width: 500px;
+  display: flex;
+}
+.inputField {
+  width: 90%;
+  font-size: 15px;
+  font-weight: 400;
+  border-right: 1px solid rgba(22, 24, 35, 0.2);
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.productName {
+  font-size: 17px;
+  padding: 5px;
+  padding-left: 19px;
+  font-weight: 350;
+  width: 100% !important;
+}
+.productName:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.searchButton {
+  font-size: 10px;
+  color: aliceblue;
+  background: transparent;
+  border: none;
+  width: 20%;
+
+  &:hover {
+    background-color: rgba(22, 24, 35, 0.06);
+  }
+}
+.menuContainer {
+  min-width: 500px;
+  min-height: 50px;
+  background: #fff;
+  min-width: 500px;
+  box-shadow: 7px 4px 12px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+
+  position: absolute;
+
+  z-index: 1 !important;
+}
+
+.optionsContainer {
+  z-index: 1 !important;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+}
+.menuItem {
+  border: none;
+  background: none;
+  cursor: pointer;
+  width: 500px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-left: 4px;
+  font-size: 1.4rem;
+  padding: 10px;
+  z-index: 1;
+  text-align: left;
+}
+.searchButton {
+  position: relative;
+}
+.menuContainer {
+  position: absolute;
+  top: 65px;
+  left: 453px;
+  border-radius: 7px;
+}
+.menuItemTop {
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: relative;
+  font-size: 1.7rem;
+}
+.menuItem:hover {
+  background-color: rgba(22, 24, 35, 0.03);
+}
+.optionsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-left: -11px;
+  margin-top: -6px;
+}
+.menuItemTop {
+  padding: 1px;
+}
+.searchBar {
+  border: 1.8px solid rgba(255, 0, 0, 0.4);
+}
+.gf {
+  font-size: 1.8rem;
+}
+.inputField {
+  padding-left: 15px;
+
+  &::placeholder {
+    color: #ccc; // Change this to your desired color
+    margin-left: 10px !important;
+  }
+
+  &:focus::placeholder {
+    color: #999;
+    margin-left: 10px !important; // Optional: Change the placeholder color on focus
+  }
+}

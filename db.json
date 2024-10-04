@@ -1,0 +1,963 @@
+{
+  "posts": [
+    {
+      "id": "2",
+      "name": "Ervin Howell",
+      "email": "Shanna@melissa.tv",
+      "phone": "010-692-6593 x09125",
+      "password": "password123",
+      "birthdate": {
+        "day": 10,
+        "month": 10,
+        "year": 1990
+      },
+      "avatar": ""
+    },
+    {
+      "id": "029d",
+      "name": "fs",
+      "email": "leduc05122004@gmail.com",
+      "phone": "0965777705",
+      "class": "123",
+      "password": "password123",
+      "birthdate": {
+        "day": 10,
+        "month": 10,
+        "year": 1990
+      },
+      "avatar": ""
+    },
+    {
+      "id": "3",
+      "name": "ol0aLUcU",
+      "email": "klJ6N@hBckP.com",
+      "phone": "585-845-3678 x56140",
+      "class": "116",
+      "password": "password123"
+    },
+    {
+      "id": "4",
+      "name": "0lWgzhpV",
+      "email": "X2p1s@lE0Se.com",
+      "phone": "529-997-8847 x59277",
+      "class": "686",
+      "password": "password123"
+    },
+    {
+      "id": "5",
+      "name": "o5IlAQ5y",
+      "email": "c4XDe@5CPQd.com",
+      "phone": "987-214-7896 x72983",
+      "class": "768",
+      "password": "password123"
+    },
+    {
+      "id": "6",
+      "name": "fijfB0XG",
+      "email": "HbAKY@McqeX.com",
+      "phone": "853-575-6235 x74202",
+      "class": "438",
+      "password": "password123"
+    },
+    {
+      "id": "7",
+      "name": "RIYVpqsl",
+      "email": "oJDxp@3dsZB.com",
+      "phone": "621-669-5748 x6321",
+      "class": "472",
+      "password": "password123"
+    },
+    {
+      "id": "6642",
+      "username": "mailledu1c05122004@gmai.com",
+      "password": "0"
+    },
+    {
+      "id": "1",
+      "img": null
+    },
+    {
+      "id": "859b",
+      "query": "\n    query IntrospectionQuery {\n      __schema {\n        \n        queryType { name }\n        mutationType { name }\n        subscriptionType { name }\n        types {\n          ...FullType\n        }\n        directives {\n          name\n          description\n          \n          locations\n          args {\n            ...InputValue\n          }\n        }\n      }\n    }\n\n    fragment FullType on __Type {\n      kind\n      name\n      description\n      \n      fields(includeDeprecated: true) {\n        name\n        description\n        args {\n          ...InputValue\n        }\n        type {\n          ...TypeRef\n        }\n        isDeprecated\n        deprecationReason\n      }\n      inputFields {\n        ...InputValue\n      }\n      interfaces {\n        ...TypeRef\n      }\n      enumValues(includeDeprecated: true) {\n        name\n        description\n        isDeprecated\n        deprecationReason\n      }\n      possibleTypes {\n        ...TypeRef\n      }\n    }\n\n    fragment InputValue on __InputValue {\n      name\n      description\n      type { ...TypeRef }\n      defaultValue\n      \n      \n    }\n\n    fragment TypeRef on __Type {\n      kind\n      name\n      ofType {\n        kind\n        name\n        ofType {\n          kind\n          name\n          ofType {\n            kind\n            name\n            ofType {\n              kind\n              name\n              ofType {\n                kind\n                name\n                ofType {\n                  kind\n                  name\n                  ofType {\n                    kind\n                    name\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    }\n  "
+    }
+  ],
+  "salesData2020": [
+    {
+      "month": "Jan",
+      "revenue": 4000,
+      "id": "f470"
+    },
+    {
+      "month": "Feb",
+      "revenue": 3000,
+      "id": "2eb8"
+    },
+    {
+      "month": "Mar",
+      "revenue": 3500,
+      "id": "f2c0"
+    },
+    {
+      "month": "Apr",
+      "revenue": 4200,
+      "id": "469f"
+    },
+    {
+      "month": "May",
+      "revenue": 4600,
+      "id": "1151"
+    },
+    {
+      "month": "Jun",
+      "revenue": 4800,
+      "id": "90d2"
+    },
+    {
+      "month": "Jul",
+      "revenue": 5000,
+      "id": "4909"
+    },
+    {
+      "month": "Aug",
+      "revenue": 5300,
+      "id": "e2cc"
+    },
+    {
+      "month": "Sep",
+      "revenue": 5500,
+      "id": "7756"
+    },
+    {
+      "month": "Oct",
+      "revenue": 0,
+      "id": "f85b"
+    },
+    {
+      "month": "Nov",
+      "revenue": 0,
+      "id": "4a6d"
+    },
+    {
+      "month": "Dec",
+      "revenue": 0,
+      "id": "cfd0"
+    }
+  ],
+  "salesData2021": [
+    {
+      "month": "Jan",
+      "revenue": 0,
+      "id": "9d46"
+    },
+    {
+      "month": "Feb",
+      "revenue": 1200,
+      "id": "4f16"
+    },
+    {
+      "month": "Mar",
+      "revenue": 3500,
+      "id": "f088"
+    },
+    {
+      "month": "Apr",
+      "revenue": 4200,
+      "id": "8a76"
+    },
+    {
+      "month": "May",
+      "revenue": 4600,
+      "id": "507f"
+    },
+    {
+      "month": "Jun",
+      "revenue": 4800,
+      "id": "80c8"
+    },
+    {
+      "month": "Jul",
+      "revenue": 5000,
+      "id": "a88c"
+    },
+    {
+      "month": "Aug",
+      "revenue": 5300,
+      "id": "7ec1"
+    },
+    {
+      "month": "Sep",
+      "revenue": 5500,
+      "id": "13cc"
+    },
+    {
+      "month": "Oct",
+      "revenue": 5800,
+      "id": "3ef3"
+    },
+    {
+      "month": "Nov",
+      "revenue": 6000,
+      "id": "3a63"
+    },
+    {
+      "month": "Dec",
+      "revenue": 6200,
+      "id": "4334"
+    }
+  ],
+  "salesData2023": [
+    {
+      "month": "Jan",
+      "revenue": 0,
+      "id": "3de9"
+    },
+    {
+      "month": "Feb",
+      "revenue": 1200,
+      "id": "c9ca"
+    },
+    {
+      "month": "Mar",
+      "revenue": 3500,
+      "id": "2f31"
+    },
+    {
+      "month": "Apr",
+      "revenue": 4200,
+      "id": "187e"
+    },
+    {
+      "month": "May",
+      "revenue": 4600,
+      "id": "791f"
+    },
+    {
+      "month": "Jun",
+      "revenue": 4800,
+      "id": "2291"
+    },
+    {
+      "month": "Jul",
+      "revenue": 5000,
+      "id": "076d"
+    },
+    {
+      "month": "Aug",
+      "revenue": 5300,
+      "id": "0582"
+    },
+    {
+      "month": "Sep",
+      "revenue": 5500,
+      "id": "6858"
+    },
+    {
+      "month": "Oct",
+      "revenue": 5800,
+      "id": "f00c"
+    },
+    {
+      "month": "Nov",
+      "revenue": 6000,
+      "id": "5c4e"
+    },
+    {
+      "month": "Dec",
+      "revenue": 9,
+      "id": "2397"
+    }
+  ],
+  "products": [
+    {
+      "id": "115",
+      "category": "Khoa Học",
+      "name": "LÊ XUAN DƯC",
+      "thumbnail": "1",
+      "price": "50000",
+      "sale_price": "40000",
+      "star": "3",
+      "evalu": "10",
+      "sold": "100",
+      "stocking": "1",
+      "sout_out": true,
+      "date": "2024-11-11",
+      "featured": false,
+      "newProduct": true,
+      "notes": "1",
+      "top": "3",
+      "product_styles": ["Màu Đen", "Màu Trắng"],
+      "stock": "1",
+      "myimg": null
+    },
+    {
+      "id": "111",
+      "category": "Kinh Dị",
+      "name": "Đắc vạn cổ chí tôn Nhân Tâm",
+      "thumbnail": "1",
+      "price": "50000",
+      "sale_price": "40000",
+      "star": "5",
+      "evalu": "10",
+      "sold": "100",
+      "stocking": "1",
+      "sout_out": true,
+      "date": "2024-11-11",
+      "featured": false,
+      "newProduct": false,
+      "notes": "1",
+      "top": "4",
+      "product_styles": ["Màu Đen", "Màu Trắng"]
+    },
+    {
+      "id": "27",
+      "category": "Thiếu Nhi",
+      "name": "Đắc trinh tham Nhân Tâm",
+      "thumbnail": "1",
+      "price": "50000",
+      "sale_price": "40000",
+      "star": "3",
+      "evalu": "10",
+      "sold": "100",
+      "stocking": "5",
+      "sout_out": true,
+      "date": "2024-11-11",
+      "featured": false,
+      "newProduct": false,
+      "notes": "1",
+      "top": "5",
+      "product_styles": ["Màu Đen", "Màu Trắng"]
+    },
+    {
+      "id": "25",
+      "category": "Tiểu Thuyết",
+      "name": "có gì đâu",
+      "thumbnail": "1",
+      "price": "20000",
+      "sale_price": "40000",
+      "star": "3",
+      "evalu": "10",
+      "sold": "100",
+      "stocking": "5",
+      "sout_out": true,
+      "date": "2024-11-11",
+      "featured": false,
+      "newProduct": false,
+      "notes": "1",
+      "top": "6",
+      "product_styles": ["Màu Đen", "Màu Trắng"]
+    },
+    {
+      "id": "11115",
+      "category": "Tiểu Thuyết",
+      "name": "tieu thuýet ha thi thu haoi",
+      "thumbnail": "1",
+      "price": "1900000",
+      "sale_price": "1900000",
+      "star": "3",
+      "evalu": "10",
+      "sold": "100",
+      "stocking": "1",
+      "sout_out": true,
+      "date": "2024-11-11",
+      "featured": false,
+      "newProduct": false,
+      "notes": "1",
+      "top": "7"
+    },
+    {
+      "id": "145",
+      "category": "Tiểu Thuyết",
+      "name": "tieuhoa thi thu óad",
+      "thumbnail": "1",
+      "price": "1293945",
+      "sale_price": "1234345",
+      "star": "3",
+      "evalu": "10",
+      "sold": "100",
+      "stocking": "1",
+      "sout_out": true,
+      "date": "2024-11-11",
+      "featured": false,
+      "newProduct": false,
+      "notes": "1",
+      "top": "7"
+    },
+    {
+      "id": "1115",
+      "category": "Tiểu Thuyết",
+      "name": "tieu thuýet",
+      "thumbnail": "1",
+      "price": "1000000",
+      "sale_price": "1245322",
+      "star": "3",
+      "evalu": "10",
+      "sold": "100",
+      "stocking": "1",
+      "sout_out": true,
+      "date": "2024-11-11",
+      "featured": false,
+      "newProduct": false,
+      "notes": "1",
+      "top": "7"
+    },
+    {
+      "id": "1",
+      "category": "1",
+      "name": "1",
+      "thumbnail": "1",
+      "price": "1",
+      "salePrice": "1",
+      "star": "1",
+      "evalu": "11",
+      "sold": "1",
+      "stock": "1",
+      "sout_out": false,
+      "date": "",
+      "featured": false,
+      "newProduct": false,
+      "notes": "1"
+    },
+    {
+      "id": "121",
+      "category": "1",
+      "name": "1",
+      "thumbnail": "1",
+      "price": "1",
+      "salePrice": "1",
+      "star": "1",
+      "evalu": "1",
+      "sold": "1",
+      "stock": "1",
+      "sout_out": false,
+      "date": "",
+      "featured": false,
+      "newProduct": false,
+      "notes": "1",
+      "top": "112"
+    },
+    {
+      "id": "a618"
+    },
+    {
+      "id": "a50b"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "customerName": "John Doe",
+      "customerContact": "john@example.com",
+      "orderDate": "2024-07-01",
+      "orderStatus": "Processing",
+      "totalAmount": 100.5,
+      "paymentStatus": "Paid",
+      "deliveryAddress": "123 Main St, City, Country",
+      "itemsOrdered": [
+        {
+          "productName": "Product 1",
+          "quantity": 2,
+          "price": 25.5
+        },
+        {
+          "productName": "Product 2",
+          "quantity": 1,
+          "price": 49.5
+        }
+      ],
+      "accept": true
+    },
+    {
+      "id": "2",
+      "customerName": "John Doe",
+      "customerContact": "john@example.com",
+      "orderDate": "2024-07-01",
+      "orderStatus": "Processing",
+      "totalAmount": 100.5,
+      "paymentStatus": "Paid",
+      "deliveryAddress": "123 Main St, City, Country",
+      "itemsOrdered": [
+        {
+          "productName": "Product 1",
+          "quantity": 2,
+          "price": 25.5
+        },
+        {
+          "productName": "Product 2",
+          "quantity": 1,
+          "price": 49.5
+        }
+      ],
+      "accept": true
+    },
+    {
+      "id": "3",
+      "customerName": "John Doe",
+      "customerContact": "john@example.com",
+      "orderDate": "2024-07-01",
+      "orderStatus": "Processing",
+      "totalAmount": 100.5,
+      "paymentStatus": "Paid",
+      "deliveryAddress": "123 Main St, City, Country",
+      "itemsOrdered": [
+        {
+          "productName": "Product 1",
+          "quantity": 2,
+          "price": 25.5,
+          "product_styles": "Đen"
+        },
+        {
+          "productName": "Product 2",
+          "quantity": 1,
+          "price": 49.5,
+          "product_styles": "Đen"
+        }
+      ],
+      "accept": true
+    },
+    {
+      "id": "03ca",
+      "customerName": "Customer Name",
+      "customerContact": "customer@example.com",
+      "orderDate": "2024-07-17",
+      "orderStatus": "Processing",
+      "totalAmount": 40000,
+      "paymentStatus": "Pending",
+      "deliveryAddress": "Customer Address",
+      "itemsOrdered": [
+        {
+          "productName": "Đaắc aNhân Tâm",
+          "quantity": 1,
+          "price": "40000",
+          "product_styles": "Đen"
+        }
+      ],
+      "accept": true
+    },
+    {
+      "id": "ab0e",
+      "customerName": null,
+      "customerContact": null,
+      "orderDate": "2024-07-18",
+      "orderStatus": "Processing",
+      "totalAmount": 200000,
+      "paymentStatus": null,
+      "deliveryAddress": null,
+      "itemsOrdered": [
+        {
+          "productName": "Đắc trinh tham Nhân Tâm",
+          "quantity": 5,
+          "price": "40000",
+          "product_styles": "Đen"
+        }
+      ],
+      "accept": false
+    },
+    {
+      "id": "0922",
+      "customerName": "Customer Name",
+      "customerContact": "customer@example.com",
+      "orderDate": "2024-07-18",
+      "orderStatus": "Delivered",
+      "totalAmount": 40000,
+      "paymentStatus": "Pending",
+      "deliveryAddress": "Customer Address",
+      "itemsOrdered": [
+        {
+          "productName": "Đắc trinh tham Nhân Tâm",
+          "quantity": 1,
+          "price": "40000",
+          "style": "Đen"
+        }
+      ],
+      "accept": null
+    },
+    {
+      "id": "f98f",
+      "customerName": "Customer Name",
+      "customerContact": "customer@example.com",
+      "orderDate": "2024-07-18",
+      "orderStatus": "Processing",
+      "totalAmount": 40000,
+      "paymentStatus": "Pending",
+      "deliveryAddress": "Customer Address",
+      "itemsOrdered": [
+        {
+          "productName": "Đắc trinh tham Nhân Tâm",
+          "quantity": 1,
+          "price": "40000",
+          "style": "Đen"
+        }
+      ],
+      "accept": false
+    },
+    {
+      "id": "63db",
+      "customerName": "Customer Name",
+      "customerContact": "customer@example.com",
+      "orderDate": "2024-07-18",
+      "orderStatus": "Processing",
+      "totalAmount": 40000,
+      "paymentStatus": "Pending",
+      "deliveryAddress": "Customer Address",
+      "itemsOrdered": [
+        {
+          "productName": " Đắc Nhân Tâm",
+          "quantity": 1,
+          "price": "40000",
+          "product_styles": "Màu Đen"
+        }
+      ],
+      "accept": false
+    },
+    {
+      "id": "298a",
+      "customerName": "Customer Name",
+      "customerContact": "customer@example.com",
+      "orderDate": "2024-07-18",
+      "orderStatus": "Processing",
+      "totalAmount": 40000,
+      "paymentStatus": "Pending",
+      "deliveryAddress": "Customer Address",
+      "itemsOrdered": [
+        {
+          "productName": " Đắc Nhân Tâm",
+          "quantity": 1,
+          "price": "40000",
+          "product_styles": "Màu Trắng"
+        }
+      ],
+      "accept": false
+    },
+    {
+      "id": "a4fd",
+      "customerName": null,
+      "customerContact": null,
+      "orderDate": "2024-07-18",
+      "orderStatus": "Processing",
+      "totalAmount": 40000,
+      "paymentStatus": null,
+      "deliveryAddress": null,
+      "itemsOrdered": [
+        {
+          "productName": "Đắc trinh tham Nhân Tâm",
+          "quantity": 1,
+          "price": "40000",
+          "product_styles": "Màu Đen"
+        },
+        {
+          "productName": "Đắc trinh tham Nhân Tâm",
+          "quantity": 1,
+          "price": "40000",
+          "product_styles": "Màu Đen"
+        }
+      ]
+    },
+    {
+      "id": "eb50",
+      "customerName": null,
+      "customerContact": null,
+      "orderDate": "2024-07-18",
+      "orderStatus": "Processing",
+      "totalAmount": 40000,
+      "paymentStatus": null,
+      "deliveryAddress": null,
+      "itemsOrdered": [
+        {
+          "productName": "Đắc trinh tham Nhân Tâm",
+          "quantity": 1,
+          "price": "40000",
+          "product_styles": "Màu Trắng"
+        }
+      ]
+    },
+    {
+      "id": "b3db",
+      "customerName": null,
+      "customerContact": null,
+      "orderDate": "2024-07-18",
+      "orderStatus": "Processing",
+      "totalAmount": 40000,
+      "paymentStatus": null,
+      "deliveryAddress": null,
+      "itemsOrdered": [
+        {
+          "productName": "Đắc trinh tham Nhân Tâm",
+          "quantity": 1,
+          "price": "40000",
+          "product_styles": "Màu Đen"
+        }
+      ]
+    },
+    {
+      "id": "c08f",
+      "customerName": null,
+      "customerContact": null,
+      "orderDate": "2024-07-18",
+      "orderStatus": "Processing",
+      "totalAmount": 40000,
+      "paymentStatus": null,
+      "deliveryAddress": null,
+      "itemsOrdered": [
+        {
+          "productName": "Đắc trinh tham Nhân Tâm",
+          "quantity": 1,
+          "price": "40000",
+          "product_styles": "Màu Trắng"
+        }
+      ]
+    },
+    {
+      "id": "6e54",
+      "customerName": null,
+      "customerContact": null,
+      "orderDate": "2024-07-18",
+      "orderStatus": "Processing",
+      "totalAmount": 40000,
+      "paymentStatus": null,
+      "deliveryAddress": null,
+      "itemsOrdered": [
+        {
+          "productName": "Đắc trinh tham Nhân Tâm",
+          "quantity": 1,
+          "price": "40000",
+          "product_styles": "Màu Đen"
+        }
+      ]
+    },
+    {
+      "id": "dab1",
+      "customerName": null,
+      "customerContact": null,
+      "orderDate": "2024-07-18",
+      "orderStatus": "Processing",
+      "totalAmount": 40000,
+      "paymentStatus": null,
+      "deliveryAddress": null,
+      "itemsOrdered": [
+        {
+          "productName": "Đắc trinh tham Nhân Tâm",
+          "quantity": 1,
+          "price": "40000",
+          "product_styles": "Màu Đen"
+        }
+      ]
+    },
+    {
+      "id": "5aa2",
+      "customerName": null,
+      "customerContact": null,
+      "orderDate": "2024-07-18",
+      "orderStatus": "Processing",
+      "totalAmount": 40000,
+      "paymentStatus": null,
+      "deliveryAddress": null,
+      "itemsOrdered": [
+        {
+          "productName": "Đắc trinh tham Nhân Tâm",
+          "quantity": 1,
+          "price": "40000",
+          "product_styles": "Màu Đen"
+        }
+      ]
+    },
+    {
+      "id": "4089",
+      "customerName": null,
+      "customerContact": null,
+      "orderDate": "2024-07-18",
+      "orderStatus": "Processing",
+      "totalAmount": 40000,
+      "paymentStatus": null,
+      "deliveryAddress": null,
+      "itemsOrdered": [
+        {
+          "productName": "Đắc trinh tham Nhân Tâm",
+          "quantity": 1,
+          "price": "40000",
+          "product_styles": "Màu Đen"
+        }
+      ]
+    },
+    {
+      "id": "5e21",
+      "customerName": null,
+      "customerContact": null,
+      "orderDate": "2024-07-18",
+      "orderStatus": "Processing",
+      "totalAmount": 40000,
+      "paymentStatus": null,
+      "deliveryAddress": null,
+      "itemsOrdered": [
+        {
+          "productName": " Đắc Nhân Tâm",
+          "quantity": 1,
+          "price": "40000",
+          "product_styles": "Màu Đen"
+        }
+      ]
+    },
+    {
+      "id": "6f6c",
+      "customerName": null,
+      "customerContact": null,
+      "orderDate": "2024-07-19",
+      "orderStatus": "Processing",
+      "totalAmount": 40000,
+      "paymentStatus": null,
+      "deliveryAddress": null,
+      "itemsOrdered": [
+        {
+          "productName": "thanafh của em ca Nhân Tâm",
+          "quantity": 1,
+          "price": "40000",
+          "product_styles": "Màu Đen"
+        }
+      ]
+    }
+  ],
+  "categorySales2020": [
+    {
+      "category": "Tâm Lý Tình Cảm",
+      "count": 100,
+      "id": "0c75"
+    },
+    {
+      "category": "Tình Yêu",
+      "count": 150,
+      "id": "b272"
+    },
+    {
+      "category": "Khoa Học",
+      "count": 200,
+      "id": "c020"
+    },
+    {
+      "category": "Kinh Dị",
+      "count": 250,
+      "id": "8f4b"
+    },
+    {
+      "category": "Thiếu Nhi",
+      "count": 300,
+      "id": "a1ae"
+    },
+    {
+      "category": "Tiểu Thuyết",
+      "count": 350,
+      "id": "28ec"
+    },
+    {
+      "category": "Khác",
+      "count": 400,
+      "id": "46ee"
+    }
+  ],
+  "categorySales2021": [
+    {
+      "category": "Tâm Lý Tình Cảm",
+      "count": 100,
+      "id": "35bd"
+    },
+    {
+      "category": "Tình Yêu",
+      "count": 150,
+      "id": "86b4"
+    },
+    {
+      "category": "Khoa Học",
+      "count": 200,
+      "id": "9ffd"
+    },
+    {
+      "category": "Kinh Dị",
+      "count": 250,
+      "id": "0441"
+    },
+    {
+      "category": "Thiếu Nhi",
+      "count": 300,
+      "id": "9b32"
+    },
+    {
+      "category": "Tiểu Thuyết",
+      "count": 350,
+      "id": "8cf0"
+    },
+    {
+      "category": "Khác",
+      "count": 0,
+      "id": "d2ee"
+    }
+  ],
+  "freeshipVouchers": [
+    {
+      "id": "1",
+      "code": "FREESHIP2023",
+      "discount": "100%",
+      "expiryDate": "2024-12-31",
+      "quantity": 100
+    },
+    {
+      "id": "2",
+      "code": "FREESHIP50",
+      "discount": "50%",
+      "expiryDate": "2024-11-30",
+      "quantity": 200
+    },
+    {
+      "id": "f5c2",
+      "code": "1",
+      "discount": "1",
+      "expiryDate": "2121-11-11",
+      "quantity": 0
+    }
+  ],
+  "bookVouchers": [
+    {
+      "id": "1",
+      "code": "BOOK2023",
+      "discount": "20%",
+      "expiryDate": "2024-10-31",
+      "quantity": 150
+    },
+    {
+      "id": "2",
+      "code": "READMORE",
+      "discount": "15%",
+      "expiryDate": "2024-09-30",
+      "quantity": 250
+    }
+  ],
+  "bankVouchers": [
+    {
+      "id": "1",
+      "code": "BANK2023",
+      "discount": "10%",
+      "expiryDate": "2024-12-31",
+      "bank": "Vietcombank",
+      "quantity": 300
+    },
+    {
+      "id": "2",
+      "code": "SAVEWITHBANK",
+      "discount": "5%",
+      "expiryDate": "2024-08-31",
+      "bank": "Techcombank",
+      "quantity": 400
+    },
+    {
+      "id": "aefc",
+      "code": "234",
+      "discount": "25%",
+      "expiryDate": "",
+      "quantity": "01"
+    },
+    {
+      "id": "1924",
+      "code": "1",
+      "discount": "1",
+      "expiryDate": "",
+      "quantity": "01"
+    }
+  ]
+}

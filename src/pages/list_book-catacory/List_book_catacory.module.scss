@@ -1,0 +1,10 @@
+.Name-item {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 150px; /* Hoặc giá trị phù hợp với giao diện của bạn */
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #fff;
+  margin-top: -4px;
+}

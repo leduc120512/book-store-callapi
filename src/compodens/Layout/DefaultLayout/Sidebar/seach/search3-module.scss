@@ -1,0 +1,199 @@
+.back-group {
+  margin-left: 10%;
+  margin-right: 10px;
+  border-radius: 30px;
+  height: 100px;
+  background: #add8e6;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 2;
+}
+.team {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.h4 {
+  margin-top: 10px;
+}
+.search3 {
+  height: 30px;
+  border-radius: 92px;
+  background: rgba(22, 24, 35, 0.06);
+  width: 200px;
+  display: flex;
+  margin-top: -15px;
+}
+.input3 {
+  width: 80%;
+
+  font-size: 15px;
+  font-weight: 400;
+
+  border-right: 1px solid rgba(22, 24, 35, 0.2);
+  background: transparent;
+  outline: none;
+  border: none;
+}
+.search-btn3 {
+  font-size: 10px;
+  color: aliceblue;
+
+  background: transparent;
+  border: none;
+  width: 20%;
+
+  &:hover {
+    background-color: rgba(22, 24, 35, 0.06);
+  }
+}
+.searchBar {
+  height: 50px;
+  border-radius: 92px;
+  background: rgba(22, 24, 35, 0.06);
+  width: 500px;
+  display: flex;
+}
+.inputField {
+  width: 90%;
+  font-size: 15px;
+  font-weight: 400;
+  border-right: 1px solid rgba(22, 24, 35, 0.2);
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+.productName:hover {
+  background-color: rgba(0, 0, 0, 1);
+}
+.productCategory {
+  padding: 4px 3px 0 15px;
+  padding-top: 8px !important;
+  padding-bottom: 8px;
+}
+.productCategory:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.searchButton {
+  font-size: 10px;
+  color: aliceblue;
+  background: transparent;
+  border: none;
+  width: 20%;
+
+  &:hover {
+    background-color: rgba(22, 24, 35, 0.06);
+  }
+}
+.menuContainer_catacorty {
+  min-height: 50px;
+  background: #fff;
+
+  box-shadow: 7px 4px 12px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+
+  position: absolute;
+
+  top: 157px;
+  left: 33px;
+  width: 262px;
+
+  border-radius: 7px;
+
+  z-index: 1 !important;
+}
+
+.optionsContainer {
+  z-index: 1 !important;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+}
+.menuItem {
+  border: none;
+  background: none;
+  cursor: pointer;
+  width: 500px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin-left: 4px;
+  font-size: 1.4rem;
+  padding: 10px;
+  z-index: 1;
+  text-align: left;
+}
+.searchButton {
+  position: relative;
+}
+.menuContainer_catacorty {
+}
+.menuItemTop {
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: relative;
+  font-size: 1.7rem;
+}
+.menuItem:hover {
+  background-color: rgba(22, 24, 35, 0.03);
+}
+.optionsContainer {
+  display: flex;
+  flex-direction: column;
+}
+.avatar {
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 50%;
+  font-size: 2rem;
+  margin-top: 23px;
+  margin-right: 4px;
+}
+.name {
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-left: -11px;
+  margin-top: -6px;
+}
+.menuItemTop {
+  padding: 1px;
+}
+.searchBar {
+  border: 1.8px solid rgba(255, 0, 0, 0.4);
+}
+.gf {
+  font-size: 1.8rem;
+}
+.Slider_item {
+  width: 250px !important;
+}
+.productCategory {
+  cursor: pointer;
+}
+.input_search {
+  display: flex;
+}
+.input_item {
+  width: 125px !important;
+}
+.menuContainer_catacorty {
+  margin-right: 10px;
+}
+/* Đặt kiểu dáng cho thẻ Link */
+.productItem {
+  text-decoration: none; /* Xóa bỏ gạch chân mặc định */
+}
+
+/* Đặt kiểu dáng cụ thể cho thành phần con */
+.productItem .productCategory {
+  font-family: inherit; /* Đảm bảo font chữ kế thừa từ cha */
+  color: inherit; /* Đảm bảo màu chữ kế thừa từ cha */
+}

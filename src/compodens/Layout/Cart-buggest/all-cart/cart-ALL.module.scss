@@ -1,0 +1,262 @@
+.item-favorites {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-item {
+  width: 100%;
+  float: left;
+  background-color: #242728;
+  height: 267px;
+}
+.item-status {
+  display: flex;
+  align-items: center;
+}
+.chinh {
+  display: flex;
+  align-items: center;
+}
+.product-details {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+}
+.favorites-title {
+  font-size: 1.1rem;
+  color: black;
+  padding: 0;
+
+  align-items: center;
+  background-color: var(--primary);
+}
+.status-message,
+.status-icon {
+  font-size: 1.1rem;
+  color: #5edbcb;
+  margin-left: 5px;
+}
+.status-message1,
+.status-icon1 {
+  font-size: 1.1rem;
+  color: var(--primary);
+  margin-left: 5px;
+}
+.product-image-wrapper {
+}
+.product-image {
+}
+.product-description {
+}
+.product-name {
+  font-size: 1.3rem;
+}
+.product-category {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.2);
+}
+.product-quantity {
+}
+.product-return-policy {
+}
+.product-pricing {
+}
+.product-discounted-price {
+}
+.product-category {
+  font-size: 1.2rem;
+}
+.product-quantity {
+  font-size: 1.2rem;
+}
+.product-return-policy {
+  font-size: 1.1rem;
+  background-color: transparent;
+  padding: 5px;
+  color: rgba(94, 219, 203, 1.4);
+  border: 3px solid rgba(94, 219, 203, 1.4);
+  display: inline-block;
+}
+.checkout-section {
+  display: flex;
+  justify-content: space-between;
+}
+.product-pricing {
+}
+.price-value,
+.price-value-sale,
+.price-icon {
+  font-size: 1.3rem;
+  font-size: 14px;
+  line-height: 16px;
+  vertical-align: middle;
+  font-weight: 550;
+}
+.price-value-sale {
+  color: var(--primary);
+  font-size: 1.6rem !important;
+}
+.price-value {
+  color: rgba(0, 0, 0, 0.4);
+
+  text-decoration: line-through;
+}
+.price-value,
+.price-icon1 {
+  margin-right: 10px;
+}
+.total-price-icon,
+.total-price-label {
+  font-size: 1.5rem;
+}
+.total-price-icon1,
+.total-price-label1 {
+  color: var(--primary);
+  margin-right: 10px;
+  font-size: 24px;
+  line-height: 30px;
+}
+.rrr {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.refund-request-button1 {
+  height: 38px;
+  margin-left: 8px;
+  border: 1px solid transparent !important;
+  width: 105px;
+  font-weight: 700 !important;
+  border-radius: 4px !important;
+  border-color: #f5f5dc !important;
+  font-size: 1.6rem !important;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)),
+    #f5f5dc !important;
+  color: #add8e6 !important;
+
+  &:hover {
+    border-color: var(--primary) !important;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)),
+      #f5f5dc;
+  }
+}
+.refund-request-button1 {
+  margin-left: 8px !important;
+}
+.total-btn {
+  height: 45px !important;
+  min-width: 200px !important;
+  font-size: 1.6rem !important;
+  margin-left: 5px !important;
+  &:hover {
+    border: var(--primary) !important;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)),
+      #f5f5dc;
+  }
+}
+.deadline-message {
+  display: flex;
+}
+.deadline-date,
+.deadline-instruction {
+  font-size: 1.1rem;
+  color: rgbA(0, 0, 0, 0.4);
+}
+.deadline-date {
+  text-decoration: underline;
+  margin-left: 5px;
+}
+.review-prompt {
+  font-size: 1.1rem;
+  color: var(--primary);
+}
+.total-price-wrapper {
+  margin-left: 200px;
+  margin-top: -38px;
+}
+.action-buttons {
+  display: flex;
+  margin-right: 30px;
+}
+.product-return-policy,
+.product-quantity,
+.product-category {
+  margin-top: -10px;
+}
+.product-return-policy {
+  margin-top: -20px !important;
+}
+.price-original {
+  margin-right: 20px;
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+}
+.price-value-sale {
+  margin-left: 22px;
+  margin-right: 31px;
+  font-size: 14px;
+  line-height: 16px;
+  vertical-align: middle;
+}
+.status-message {
+  margin-right: 46px;
+}
+.status-icon1 {
+  margin-left: 15px;
+}
+
+.product-description,
+.favorites-title {
+  margin-left: 30px;
+}
+.deadline-instruction {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.deadline-date {
+  margin-top: 30px;
+}
+.review-prompt {
+  margin-left: 30px;
+  margin-top: -10px;
+}
+.review-button {
+  color: black !important;
+}
+.total-asdbtn {
+  text-decoration: none;
+  color: white;
+}
+.refund-request-asdof {
+  cursor: pointer;
+  margin-left: 5px;
+  z-index: 1;
+}
+.refund-request-button {
+  color: #add8e6 !important;
+  background-color: #f5f5dc !important;
+  border-color: #f5f5dc !important;
+
+  &:hover {
+    border-color: #f5f5dc;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.06)),
+      #f5f5dc;
+  }
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-width: 120px !important;
+  padding: 9px 16px !important;
+  border-radius: 4px !important;
+  font-size: 1.5rem !important;
+  font-weight: 700 !important;
+  border-color: #f5f5dc !important;
+  cursor: pointer !important;
+
+  border: 1px solid transparent !important;
+  user-select: none;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)),
+    #f5f5dc !important;
+  margin-left: 5px !important;
+  height: 40px !important;
+}
