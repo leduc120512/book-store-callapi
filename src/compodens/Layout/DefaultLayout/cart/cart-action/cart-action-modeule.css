@@ -1,0 +1,76 @@
+.menu-containert {
+  min-width: 100px; /* Đã thay đổi từ max-width sang min-width */
+  min-height: 100px;
+  max-height: 700px;
+  position: absolute; /* Đã đặt position là absolute */
+  /* Khoảng cách từ phần tử cha */
+  top: 55px;
+  right: 40px;
+}
+.menu-containert::after {
+  content: "";
+  position: absolute;
+  border-width: 14px;
+  border-style: solid;
+  border-color: transparent transparent rgba(22, 24, 35, 1) transparent;
+  right: 60px;
+  top: -24px;
+}
+.duc1234 {
+  display: flex;
+  align-items: center;
+}
+.menu-itemt {
+  border: none;
+  background: none;
+
+  cursor: pointer;
+
+  width: 170px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  /* Đã thêm position relative */
+  margin-left: 4px;
+  font-size: 1.4rem;
+  padding: 10px;
+  z-index: 1;
+  text-align: left; /* Canh lề nút sang trái */
+}
+
+.menu-item-t {
+  border: none;
+  background: none;
+  cursor: pointer;
+  position: relative;
+
+  font-size: 1.7rem;
+}
+
+.menu-itemt:hover {
+  background-color: rgba(22, 24, 35, 0.03);
+}
+
+.options-containert {
+  display: flex; /* Sử dụng flexbox để xếp các nút theo chiều dọc */
+  flex-direction: column; /* Xếp các nút theo chiều dọc */
+}
+
+.avatar {
+  width: 30px !important;
+  height: 30px !important;
+  object-fit: cover;
+  border-radius: 50%;
+  font-size: 2rem;
+  margin-top: 15px !important;
+  margin-right: 12px !important;
+}
+.Name {
+  font-size: 1.4rem;
+  cursor: pointer;
+  margin-left: -5px;
+  margin-top: -4px;
+}
+.menu-item-t {
+  padding: 1px;
+}

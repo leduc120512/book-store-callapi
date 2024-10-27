@@ -1,0 +1,49 @@
+.book-main-image {
+  width: 500px;
+  height: 500px;
+}
+.book-gallery-image {
+  width: 18%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.book-item-gallery {
+  margin-left: -1%;
+  margin-top: 5px;
+}
+.book-item-header {
+  margin-top: 18px;
+}
+.book-img-lits {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.book-item-actions {
+  display: flex;
+}
+
+.share-title,
+.like-count {
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.like-title {
+  font-size: 17px;
+  font-weight: 400;
+}
+.book-share {
+  display: flex;
+  align-items: center;
+  margin-right: 90px;
+}
+.book-like {
+  display: flex;
+  align-items: center;
+}
+.share-item {
+  margin-right: 4px;
+  font-size: 2rem;
+}

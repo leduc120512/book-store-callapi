@@ -1,0 +1,271 @@
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  height: 300px;
+}
+.LIST {
+}
+.card {
+  border: 1px solid white;
+}
+.item-book {
+  height: 180px;
+}
+.price-Text {
+  margin-right: 3px;
+}
+button:hover {
+  opacity: 0.7;
+}
+
+.price {
+  color: grey;
+  font-size: 15px;
+}
+
+.price-sale {
+  font-size: 1.7rem !important;
+  font-weight: 600;
+  margin: 0 !important;
+}
+
+.price-CAR2,
+.price-CAR3,
+.price-CART {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.start {
+  font-size: 8px;
+}
+
+.Name-item {
+  margin-top: 4px;
+  font-size: 15px;
+  font-weight: 550;
+  color: white;
+  text-decoration: none;
+}
+.icon-cart {
+  color: white;
+}
+.sale-buggert,
+.start,
+.price-Text,
+.price-soluong,
+.price-day,
+.oto,
+.diachi {
+  color: white;
+}
+.sale-buggert {
+  font-size: 10px;
+}
+.Nav-lin {
+  text-decoration: none;
+}
+.icon-cart {
+  font-size: 10px;
+}
+
+.duc {
+  display: flex;
+  flex-direction: row;
+}
+
+.price-CART {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: -25px;
+  margin-bottom: 5px;
+  .p {
+    font-size: 10px;
+  }
+}
+.price-Text {
+  font-size: 10px;
+}
+
+.Distance {
+  display: flex;
+  align-items: center;
+  .p {
+    font-size: 10px;
+  }
+}
+.duc,
+.Distance {
+  font-size: 10px;
+
+  .price-CART {
+    font-size: 10px;
+  }
+
+  .start {
+    font-size: 10px;
+  }
+
+  .price-Text,
+  .price-current {
+    font-size: 10px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+}
+.price-sale {
+  color: #ef5a3d;
+}
+.price {
+  text-decoration: line-through;
+  font-size: 10px;
+}
+.sale-buggert {
+  margin-left: -5px;
+  background-color: #ef5a3d;
+}
+.price-CAR2 {
+  margin-left: -10px;
+}
+.price-CART {
+  .price-sale {
+    font-size: 13px;
+  }
+  .price {
+    margin-top: 15px;
+    margin-left: 3px;
+  }
+  .price-CAR2 {
+    p {
+      font-size: 10px;
+    }
+
+    .sale-buggert {
+      font-size: 10px;
+      margin-right: 50px; // Đặt khoảng cách 10px giữa .sale-buggert và .price
+    }
+  }
+}
+.duc {
+  margin-bottom: 5px;
+}
+.price-CART {
+  margin-bottom: 10px;
+}
+.price-CAR3 {
+  margin-top: 7px;
+}
+.price-Text {
+  margin-left: 5px;
+}
+.price-current {
+  margin-right: 5px;
+}
+.price-day {
+  color: #4edbc0;
+  font-weight: 550;
+  margin-left: 5px;
+}
+.price-CART {
+  margin-left: 5px;
+}
+.price-soluong {
+  margin-right: -5px;
+}
+.price-CART {
+  .price-sale,
+  .price {
+    font-size: 10px;
+  }
+
+  .price-CAR2 {
+    p {
+      font-size: 10px;
+    }
+
+    .sale-buggert {
+      font-size: 10px;
+      margin-right: 10px; // Khoảng cách 10px giữa .sale-buggert và .price
+    }
+  }
+
+  .duc,
+  .Distance {
+    font-size: 10px;
+
+    .price-CART {
+      display: flex;
+      flex-direction: row;
+
+      p {
+        font-size: 10px;
+        text-align: center;
+        margin: 0 5px; // Margin 5px giữa các phần tử p trong .price-CART
+      }
+    }
+  }
+}
+.diachi {
+  margin-left: 3px;
+  font-weight: 550;
+}
+.oto {
+  margin-left: 5px;
+}
+.price {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+.price-CAR2 {
+  margin-top: 5px;
+}
+.price-CART {
+  margin-top: -20px;
+}
+.price-sale {
+  margin-top: 16px;
+  font-size: 12px;
+}
+.container {
+  padding: 20px;
+}
+.playcart {
+  margin-right: 8px;
+  width: 100%;
+  margin-top: 5px;
+  transition: transform 0.2s ease-in-out; // Thêm hiệu ứng chuyển đổi mượt mà
+
+  &:hover {
+    transform: translateY(-2px); // Khi rê chuột lên item, nó sẽ nhích lên 2px
+  }
+}
+.LIST {
+  width: 80%;
+  float: left;
+  margin-left: 100px;
+  margin-top: 7px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.card {
+}
+/* Các lớp và thuộc tính khác... */
+.hoai {
+  color: #ef5a3d;
+}
+.playcart {
+  margin-bottom: 5px;
+}
+.card {
+  cursor: pointer;
+}

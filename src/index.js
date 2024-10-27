@@ -1,17 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import { createRoot } from "react-dom/client"; // Import createRoot from react-dom/client
+import App from "./App";
+import GlobalStyle from './compodens/glogbalstyle'; // Corrected the path as "components/globalstyle" assuming a typo in your original code
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const container = document.getElementById("root");
+const root = createRoot(container); // Tạo root mới
+
 root.render(
   <React.StrictMode>
-    <App />
+    <GlobalStyle>
+      <App />
+    </GlobalStyle>
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// Nếu bạn muốn bắt đầu đo lường hiệu suất trong ứng dụng của mình, hãy truyền một hàm
+// để ghi kết quả (ví dụ: reportWebVitals(console.log))
+// hoặc gửi đến một endpoint phân tích. Tìm hiểu thêm: https://bit.ly/CRA-vitals
 reportWebVitals();

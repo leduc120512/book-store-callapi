@@ -1,0 +1,49 @@
+.end-bar {
+  margin-left: 10%;
+  margin-right: 10px;
+  border-radius: 7%;
+  min-height: 260px;
+  background: #add8e6;
+  margin-top: 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bam {
+  min-width: 224px;
+  width: 100%;
+  padding: 0px 16px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  cursor: pointer;
+  /* Đã loại bỏ các thuộc tính border lặp lại và chỉ giữ lại border-radius */
+  border-radius: 2px;
+  text-decoration: none;
+  &:hover {
+    border-color: rgba(22, 24, 35, 0.2);
+    background-color: rgba(22, 24, 35, 0.03);
+  }
+}
+
+.bam-2 {
+  color: rgb(22, 24, 35);
+  font-family: "IBM Plex Sans", TikTokFont, Arial, Tahoma, PingFangSC,
+    sans-serif;
+  font-weight: 550;
+  font-size: 18px;
+  line-height: 24px;
+  margin-left: 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+.bam1 {
+  cursor: pointer;
+  margin-left: 10px;
+  color: azure;
+  text-decoration: none;
+}
+
+/* Các phần khác giữ nguyên */

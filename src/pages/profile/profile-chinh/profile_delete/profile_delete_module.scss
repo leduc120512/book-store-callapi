@@ -1,0 +1,29 @@
+.Profile-delete {
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.9);
+  min-height: 550px;
+}
+.Profile-detle-item {
+  display: flex;
+
+  justify-content: space-between;
+}
+.Profile-deletdfe {
+  margin-top: 30px !important;
+  margin-left: 40px;
+}
+.Profile-detle-delete--btn {
+  width: 150px !important;
+  height: 40px;
+}
+.Profile-p {
+  margin-top: 30px !important;
+  padding: 0 !important;
+  font-size: 1.7rem !important;
+  font-weight: 600;
+}
+.Profile-detle-delete,
+.Profile-detle-delete--btn,
+.Profile-detle-item {
+  padding: 0 !important;
+}

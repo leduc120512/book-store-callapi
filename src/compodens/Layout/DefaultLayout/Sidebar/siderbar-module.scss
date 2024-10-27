@@ -1,0 +1,58 @@
+.Sider-bar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  margin-top: 40px;
+
+  background-color: #f8f9fa;
+}
+.Sidert {
+  width: 100%;
+}
+.BUTON {
+  margin-right: -434% !important;
+}
+.enda {
+  margin-top: 15px;
+}
+.sidebar {
+}
+
+.search,
+.button,
+.end {
+  margin-bottom: 16px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 0;
+    flex: 1;
+    text-align: center;
+  }
+}
+.Sider-bar {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: #f8f9fa;
+}
+
+.Sidert,
+.BUTON,
+.enda {
+  margin-bottom: 16px;
+
+  @media (max-width: 768px) {
+    margin-bottom: 0;
+
+    text-align: center;
+    display: none;
+  }
+}
+.with-content {
+  @media (max-width: 890px) {
+    margin-bottom: 0;
+
+    text-align: center;
+    display: none;
+  }
+}

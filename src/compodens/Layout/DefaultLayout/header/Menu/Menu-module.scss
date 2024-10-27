@@ -1,0 +1,57 @@
+.qmenu-container {
+  min-width: 300px; /* Đã thay đổi từ max-width sang min-width */
+  min-height: 100px;
+  max-height: 700px;
+  width: 500px;
+  /* Đã đặt position là absolute */
+  /* Khoảng cách từ phần tử cha */
+}
+
+.qmenu-item {
+  border: none;
+  background: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 300px;
+  text-align: left; /* Canh lề nút sang trái */
+}
+
+.qmenu-item- {
+  border: none;
+  background: none;
+  cursor: pointer;
+  /* Đã thêm position relative */
+  margin-left: 4px;
+  font-size: 1.7rem;
+  padding: 20px;
+  margin-top: -7px;
+}
+
+.menu-item:hover {
+  background-color: rgba(22, 24, 35, 0.03);
+}
+
+.qoptions-container {
+  display: flex; /* Sử dụng flexbox để xếp các nút theo chiều dọc */
+  flex-direction: column; /* Xếp các nút theo chiều dọc */
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 13px;
+  font-size: 2rem;
+}
+.qmenu-item-duc {
+  .qmenu-item- {
+    position: relative;
+  }
+  .qmenu-container {
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    z-index: 1;
+  }
+}

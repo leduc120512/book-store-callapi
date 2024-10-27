@@ -3,19 +3,49 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/runtime": "^7.24.8",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mui/icons-material": "^5.15.19",
+    "@mui/lab": "^5.0.0-alpha.170",
+    "@mui/material": "^5.15.19",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "@mui/x-charts": "^7.9.0",
+    "@mui/x-data-grid": "^7.10.0",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "classnames": "^2.5.1",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "customize-cra": "^1.0.0",
+    "fuse.js": "^7.0.0",
+    "json-server": "^1.0.0-beta.1",
+    "normalize.css": "^8.0.1",
+    "path": "^0.12.7",
+    "react": "^18.3.1",
+    "react-app-rewired": "^2.2.1",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^10.0.5",
+    "recharts": "^2.12.7",
+    "sass": "^1.74.1",
+    "styled-components": "^6.1.11",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-scripts --max-old-space-size=4096 start",
+    "build": "react-scripts --max-old-space-size=4096 build",
+    "test": "react-scripts --max-old-space-size=4096 test",
+    "eject": "react-scripts eject",
+    "json-server": "json-server --watch db.json --port 3000"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +64,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.14.5",
+    "babel-plugin-module-resolver": "^5.0.0"
   }
 }

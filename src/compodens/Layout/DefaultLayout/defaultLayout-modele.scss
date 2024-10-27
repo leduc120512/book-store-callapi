@@ -1,0 +1,58 @@
+.Boc {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.Headr {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+}
+.header {
+  height: 68px;
+}
+.with-content {
+  min-height: 1000px;
+  width: 100%;
+  margin-top: -20px !important;
+}
+.card {
+  display: inline-block;
+}
+.container {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 0 !important;
+}
+.content {
+  margin-top: 80px;
+  min-height: 1000px;
+  width: 100%;
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+.Content_LogOUT_QUEN {
+  display: flex;
+  align-items: center;
+}
+/* CSS */
+.element {
+  display: flex;
+  align-items: center;
+}
+
+.border-segment {
+  height: 1px;
+  flex-grow: 1;
+  background-color: black;
+}
+
+.login-text {
+  margin: 0 10px; /* Khoảng cách giữa chữ "Đăng nhập" và border */
+}
